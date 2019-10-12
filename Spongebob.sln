@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spongebob", "Spongebob\Spongebob.vcxproj", "{77E93E07-E206-4051-AD0C-90310636F302}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Patrick", "Patrick\Patrick.vcxproj", "{D631FF62-D181-4899-A58B-7AF38C93F1E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77E93E07-E206-4051-AD0C-90310636F302}.Debug|x64.ActiveCfg = Debug|x64
+		{77E93E07-E206-4051-AD0C-90310636F302}.Debug|x64.Build.0 = Debug|x64
+		{77E93E07-E206-4051-AD0C-90310636F302}.Release|x64.ActiveCfg = Release|x64
+		{77E93E07-E206-4051-AD0C-90310636F302}.Release|x64.Build.0 = Release|x64
+		{D631FF62-D181-4899-A58B-7AF38C93F1E1}.Debug|x64.ActiveCfg = Debug|x64
+		{D631FF62-D181-4899-A58B-7AF38C93F1E1}.Debug|x64.Build.0 = Debug|x64
+		{D631FF62-D181-4899-A58B-7AF38C93F1E1}.Release|x64.ActiveCfg = Release|x64
+		{D631FF62-D181-4899-A58B-7AF38C93F1E1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8B7CD8C-076D-4413-B10D-154BD4827D1A}
+	EndGlobalSection
+EndGlobal
