@@ -1,4 +1,4 @@
-#include<SpongebobClient.h>
+#include <SpongebobClient.h>
 #include <string>
 
 class Patrick : public Spongebob::Application {

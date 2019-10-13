@@ -144,14 +144,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="client\SpongebobClient.h" />
-    <ClInclude Include="src\Spongebob\Application.h" />
-    <ClInclude Include="src\Spongebob\Core.h" />
-    <ClInclude Include="src\Spongebob\EntryPoint.h" />
-    <ClInclude Include="src\Spongebob\Log.h" />
+    <ClInclude Include="Spongebob\Application.h" />
+    <ClInclude Include="Spongebob\Core.h" />
+    <ClInclude Include="Spongebob\EntryPoint.h" />
+    <ClInclude Include="Spongebob\Events\Event.h" />
+    <ClInclude Include="Spongebob\Log.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Spongebob\Application.cpp" />
-    <ClCompile Include="src\Spongebob\Log.cpp" />
+    <ClCompile Include="Spongebob\Application.cpp" />
+    <ClCompile Include="Spongebob\Log.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

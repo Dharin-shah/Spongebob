@@ -15,24 +15,25 @@
     <ClInclude Include="client\SpongebobClient.h">
       <Filter>client</Filter>
     </ClInclude>
-    <ClInclude Include="src\Spongebob\Application.h">
+    <ClInclude Include="Spongebob\Events\Event.h" />
+    <ClInclude Include="Spongebob\Application.h">
       <Filter>src\Spongebob</Filter>
     </ClInclude>
-    <ClInclude Include="src\Spongebob\Core.h">
+    <ClInclude Include="Spongebob\Core.h">
       <Filter>src\Spongebob</Filter>
     </ClInclude>
-    <ClInclude Include="src\Spongebob\EntryPoint.h">
+    <ClInclude Include="Spongebob\EntryPoint.h">
       <Filter>src\Spongebob</Filter>
     </ClInclude>
-    <ClInclude Include="src\Spongebob\Log.h">
+    <ClInclude Include="Spongebob\Log.h">
       <Filter>src\Spongebob</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Spongebob\Application.cpp">
+    <ClCompile Include="Spongebob\Application.cpp">
       <Filter>src\Spongebob</Filter>
     </ClCompile>
-    <ClCompile Include="src\Spongebob\Log.cpp">
+    <ClCompile Include="Spongebob\Log.cpp">
       <Filter>src\Spongebob</Filter>
     </ClCompile>
   </ItemGroup>
