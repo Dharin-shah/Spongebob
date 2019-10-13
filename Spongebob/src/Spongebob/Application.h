@@ -1,5 +1,7 @@
 #pragma once
-#include "Core.h";
+#include "Core.h"
+#include <string.h>
+#include <String>
 
 namespace Spongebob {
 	class SPONGEBOB_API Application
@@ -8,6 +10,7 @@ namespace Spongebob {
 		Application();
 		virtual ~Application();
 		void run();
+		virtual std::string getApplicationName();
 	};
 
 	//To be Defined in Client

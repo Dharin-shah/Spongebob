@@ -16,4 +16,10 @@ namespace Spongebob {
 	{
 		std::cout << "Hello";
 	}
+
+	std::string Spongebob::Application::getApplicationName()
+	{
+		return "Base Spongebob Application";
+	}
+
 }

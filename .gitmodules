@@ -1,0 +1,3 @@
+[submodule "Spongebob/ventor/spdlog"]
+	path = Spongebob/ventor/spdlog
+	url = git@github.com:gabime/spdlog.git

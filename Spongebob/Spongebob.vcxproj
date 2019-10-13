@@ -53,6 +53,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>SB_PLATFORM_WINDOWS;SB_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Spongebob\ventor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,9 +79,11 @@
     <ClInclude Include="src\Spongebob\Application.h" />
     <ClInclude Include="src\Spongebob\Core.h" />
     <ClInclude Include="src\Spongebob\EntryPoint.h" />
+    <ClInclude Include="src\Spongebob\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Spongebob\Application.cpp" />
+    <ClCompile Include="src\Spongebob\Log.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
