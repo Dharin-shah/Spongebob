@@ -2,3 +2,4 @@ bin/
 .vs/
 bin-int/
 *.user
+/Spongebob/vendor/*
