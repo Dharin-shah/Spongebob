@@ -1,48 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Spongebob">
+      <UniqueIdentifier>{040BDB7B-7075-8FF2-B9B3-4098255D6D47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spongebob\Events">
+      <UniqueIdentifier>{68AA1D88-54A3-3CDA-7DD5-215F692D1CE6}</UniqueIdentifier>
+    </Filter>
     <Filter Include="client">
       <UniqueIdentifier>{8461ABF6-7003-D6CC-59BE-E92045FF5C1D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Spongebob">
-      <UniqueIdentifier>{DB6C95BB-472D-11F2-1068-5A6F7CE755CE}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Spongebob\Application.h">
+      <Filter>Spongebob</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Core.h">
+      <Filter>Spongebob</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\EntryPoint.h">
+      <Filter>Spongebob</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Events\ApplicationEvent.h">
+      <Filter>Spongebob\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Events\Event.h">
+      <Filter>Spongebob\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Events\EventCategory.h">
+      <Filter>Spongebob\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Events\EventType.h">
+      <Filter>Spongebob\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Events\KeyEvent.h">
+      <Filter>Spongebob\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Events\MouseEvent.h">
+      <Filter>Spongebob\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Spongebob\Log.h">
+      <Filter>Spongebob</Filter>
+    </ClInclude>
     <ClInclude Include="client\SpongebobClient.h">
       <Filter>client</Filter>
     </ClInclude>
-    <ClInclude Include="Spongebob\Application.h">
-      <Filter>src\Spongebob</Filter>
-    </ClInclude>
-    <ClInclude Include="Spongebob\Core.h">
-      <Filter>src\Spongebob</Filter>
-    </ClInclude>
-    <ClInclude Include="Spongebob\EntryPoint.h">
-      <Filter>src\Spongebob</Filter>
-    </ClInclude>
-    <ClInclude Include="Spongebob\Log.h">
-      <Filter>src\Spongebob</Filter>
-    </ClInclude>
-    <ClInclude Include="Spongebob\Events\Event.h" />
-    <ClInclude Include="Spongebob\Events\EventType.h" />
-    <ClInclude Include="Spongebob\Events\EventCategory.h" />
-    <ClInclude Include="Spongebob\Events\ApplicationEvent.h" />
-    <ClInclude Include="Spongebob\Events\MouseEvent.h" />
-    <ClInclude Include="Spongebob\Events\KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Spongebob\Application.cpp">
-      <Filter>src\Spongebob</Filter>
+      <Filter>Spongebob</Filter>
     </ClCompile>
     <ClCompile Include="Spongebob\Log.cpp">
-      <Filter>src\Spongebob</Filter>
+      <Filter>Spongebob</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

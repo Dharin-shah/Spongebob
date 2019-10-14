@@ -22,20 +22,21 @@ project "Spongebob"
 
 	files
 	{
-		"%{prj.name}/src/**.h",
-		"%{prj.name}/src/**.cpp",
+		"%{prj.name}/Spongebob/**.h",
+		"%{prj.name}/Spongebob/**.cpp",
 		"%{prj.name}/client/**.h"
 	}
 
 	includedirs
-	{
+	{	
+		"%{prj.name}/Spongebob/**.h",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "10.0"
+		systemversion "latest"
 
 		defines
 		{
@@ -90,7 +91,7 @@ project "Patrick"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "10.0"
+		systemversion "latest"
 
 		defines
 		{
