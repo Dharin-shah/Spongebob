@@ -1,15 +1,20 @@
 #include <SpongebobClient.h>
-#include <string>
 
 class Patrick : public Spongebob::Application {
 public:
 	Patrick() {}
 	~Patrick() {}
+
+	const std::string Spongebob::Application::getApplicationName()
+	{
+		return "Patrick";
+	}
+
 };
 
-std::string Spongebob::Application::getApplicationName()
+void Spongebob::Application::run()
 {
-	return "Patrick";
+	SB_CLIENT_INFO("Application Running -- {0}", getApplicationName());
 }
 
 Spongebob::Application* Spongebob::CreateApplication() 

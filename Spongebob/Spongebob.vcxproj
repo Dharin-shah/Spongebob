@@ -147,12 +147,20 @@
     <ClInclude Include="Spongebob\Application.h" />
     <ClInclude Include="Spongebob\Core.h" />
     <ClInclude Include="Spongebob\EntryPoint.h" />
+    <ClInclude Include="Spongebob\Events\ApplicationEvent.h" />
     <ClInclude Include="Spongebob\Events\Event.h" />
+    <ClInclude Include="Spongebob\Events\EventCategory.h" />
+    <ClInclude Include="Spongebob\Events\EventType.h" />
+    <ClInclude Include="Spongebob\Events\KeyEvent.h" />
+    <ClInclude Include="Spongebob\Events\MouseEvent.h" />
     <ClInclude Include="Spongebob\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Spongebob\Application.cpp" />
     <ClCompile Include="Spongebob\Log.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

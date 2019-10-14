@@ -12,12 +12,7 @@ namespace Spongebob {
 	{
 	}
 
-	void Application::run() 
-	{
-		std::cout << "Hello";
-	}
-
-	std::string Spongebob::Application::getApplicationName()
+	const std::string Spongebob::Application::getApplicationName() 
 	{
 		return "Base Spongebob Application";
 	}

@@ -15,7 +15,6 @@
     <ClInclude Include="client\SpongebobClient.h">
       <Filter>client</Filter>
     </ClInclude>
-    <ClInclude Include="Spongebob\Events\Event.h" />
     <ClInclude Include="Spongebob\Application.h">
       <Filter>src\Spongebob</Filter>
     </ClInclude>
@@ -28,6 +27,12 @@
     <ClInclude Include="Spongebob\Log.h">
       <Filter>src\Spongebob</Filter>
     </ClInclude>
+    <ClInclude Include="Spongebob\Events\Event.h" />
+    <ClInclude Include="Spongebob\Events\EventType.h" />
+    <ClInclude Include="Spongebob\Events\EventCategory.h" />
+    <ClInclude Include="Spongebob\Events\ApplicationEvent.h" />
+    <ClInclude Include="Spongebob\Events\MouseEvent.h" />
+    <ClInclude Include="Spongebob\Events\KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Spongebob\Application.cpp">
@@ -36,5 +41,8 @@
     <ClCompile Include="Spongebob\Log.cpp">
       <Filter>src\Spongebob</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
