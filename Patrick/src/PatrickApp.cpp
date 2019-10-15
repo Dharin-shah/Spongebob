@@ -10,15 +10,9 @@ public:
 		return "Patrick";
 	}
 
-};
-
-void Spongebob::Application::run()
-{
-	SB_CLIENT_INFO("Application Running -- {0}", getApplicationName());
-}
+}; 
 
 Spongebob::Application* Spongebob::CreateApplication() 
 {
 	return new Patrick();
 }
-

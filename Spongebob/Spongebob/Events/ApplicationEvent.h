@@ -3,7 +3,7 @@
 
 namespace Spongebob 
 {
-	class SPONGEBOB_API	 WindowResizeEvent : public Event
+	class SPONGEBOB_API WindowResizeEvent : public Event
 		{
 		public:
 			WindowResizeEvent(unsigned int width, unsigned int height)
