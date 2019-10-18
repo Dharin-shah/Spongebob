@@ -21,7 +21,7 @@ namespace Spongebob {
 	void Application::run()
 	{
 		SB_CORE_INFO("Application Running -- {0}", getApplicationName());
-		WindowResizeEvent e(1280, 720);
+		AppUpdateEvent e;
 		SB_CORE_TRACE(e);
 		while (true);
 	}
