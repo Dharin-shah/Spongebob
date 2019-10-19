@@ -1,9 +1,5 @@
 #pragma once
 
-#include <string>
-#include <functional>
-#include <sstream> 
-
 #ifdef SB_PLATFORM_WINDOWS
 	#ifdef SB_BUILD_DLL
 		#define SPONGEBOB_API __declspec(dllexport)
@@ -13,6 +9,7 @@
 #else
 	#error Spongebob Only Supports Windows!
 #endif // !SB_PLATFORM_WINDOWS
+
 
 
 #define BIT(x) (1 << x)

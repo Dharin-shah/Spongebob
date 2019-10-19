@@ -5,13 +5,10 @@
 namespace Spongebob {
 	
 	Application::Application() 
-	{
-	
-	}
+	{}
 
 	Application::~Application() 
-	{
-	}
+	{}
 
 	const std::string Spongebob::Application::getApplicationName() 
 	{

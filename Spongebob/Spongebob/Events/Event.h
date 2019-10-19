@@ -1,5 +1,6 @@
 #pragma once
-#include "..//Core.h"
+
+#include "../Core.h"
 #include "EventType.h"
 #include "EventCategory.h"
 

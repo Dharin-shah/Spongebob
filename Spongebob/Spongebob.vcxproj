@@ -79,7 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>SB_PLATFORM_WINDOWS;SB_BUILD_DLL;SB_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>vendor\spdlog\include;Spongebob\*.h;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -143,6 +143,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="sbpch.h" />
     <ClInclude Include="Spongebob\Application.h" />
     <ClInclude Include="Spongebob\Core.h" />
     <ClInclude Include="Spongebob\EntryPoint.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="client\SpongebobClient.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="sbpch.cpp" />
     <ClCompile Include="Spongebob\Application.cpp" />
     <ClCompile Include="Spongebob\Log.cpp" />
   </ItemGroup>

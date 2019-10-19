@@ -45,6 +45,7 @@
     <ClInclude Include="client\SpongebobClient.h">
       <Filter>client</Filter>
     </ClInclude>
+    <ClInclude Include="sbpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Spongebob\Application.cpp">
@@ -53,5 +54,6 @@
     <ClCompile Include="Spongebob\Log.cpp">
       <Filter>Spongebob</Filter>
     </ClCompile>
+    <ClCompile Include="sbpch.cpp" />
   </ItemGroup>
 </Project>

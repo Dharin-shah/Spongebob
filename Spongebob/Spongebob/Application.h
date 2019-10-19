@@ -1,6 +1,6 @@
 #pragma once
 #include "Core.h"
-#include <string.h>
+#include "../sbpch.h"
 
 namespace Spongebob {
 	class SPONGEBOB_API Application
